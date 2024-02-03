@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flipkart clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+        .menu-active {
+            border-radius: 0.5rem;
+            transition: 300ms;
+        }
+
+        .menu-active:hover {
+            background-color: #fff;
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- search collapse start -->
+    <div class="collapse" id="search">
+        <div class="alert alert-primary mb-0">
+            <div class="container">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                        aria-describedby="basic-addon1">
+                    <button type="button" class="btn btn-primary">primary</button>
+                </div>
+                <h3 class="my-4">Quick Link</h3>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <a class="text-decoration-none d-block" href="">Link 1</a>
+                        <a class="text-decoration-none d-block" href="">Link 1</a>
+                        <a class="text-decoration-none d-block" href="">Link 1</a>
+                        <a class="text-decoration-none d-block" href="">Link 1</a>
+                        <a class="text-decoration-none d-block" href="">Link 1</a>
+                    </div>
+                    <div class="col-sm-3">
+                        <a class="text-decoration-none d-block" href="">Link 1</a>
+                        <a class="text-decoration-none d-block" href="">Link 1</a>
+                        <a class="text-decoration-none d-block" href="">Link 1</a>
+                        <a class="text-decoration-none d-block" href="">Link 1</a>
+                        <a class="text-decoration-none d-block" href="">Link 1</a>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <img class="img-fluid"
+                                            src="https://rukminim2.flixcart.com/image/416/416/xif0q/computer/5/6/i/-original-imaggshd5zgfe8ev.jpeg?q=70"
+                                            alt="">
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <h3>Fetured Item</h3>
+                                        <p>Lorem ipsum dolor sit amet.</p>
+                                        <button type="button" class="btn btn-sm btn-outline-primary">Shop Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- search collapse end -->
+
+
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Flipkart Pro +</a>
+
+
+            <!-- menu start -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown">
+                        menu
+                    </button>
+                    <ul class="dropdown-menu w-100 alert alert-primary py-5">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="d-flex gap-3 border border-light p-3 menu-active">
+                                        <i class="bi bi-laptop fs-1"></i>
+                                        <div>
+                                            <h3>Asus Laptop</h3>
+                                            <p>Asus Laptop product.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="d-flex gap-3 border border-light p-3 menu-active">
+                                        <i class="bi bi-laptop fs-1"></i>
+                                        <div>
+                                            <h3>Samsung Laptop</h3>
+                                            <p>Samsung Laptops Product.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="d-flex gap-3 border border-light p-3 menu-active">
+                                        <i class="bi bi-laptop fs-1"></i>
+                                        <div>
+                                            <h3>Apple Laptop</h3>
+                                            <p>Apple Laptops Product.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="d-flex gap-3 border border-light p-3 menu-active">
+                                        <i class="bi bi-laptop fs-1"></i>
+                                        <div>
+                                            <h3>HP Laptop</h3>
+                                            <p>HP Laptops Product.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="d-flex gap-3 border border-light p-3 menu-active">
+                                        <i class="bi bi-laptop fs-1"></i>
+                                        <div>
+                                            <h3>DELL Laptop</h3>
+                                            <p>Dell Laptops Product..</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="d-flex gap-3 border border-light p-3 menu-active">
+                                        <i class="bi bi-laptop fs-1"></i>
+                                        <div>
+                                            <h3>Lenovo Laptop</h3>
+                                            <p>Lenovo Laptops Product..</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- menu end
+             -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+
+                </div>
+            </div>
+            <div>
+                <button data-bs-toggle="collapse" data-bs-target="#search" type="button"
+                    class="btn btn-outline-light bi bi-search"></button>
+
+                <button data-bs-toggle="offcanvas" data-bs-target="#Cart" type="button"
+                    class="btn btn-outline-light bi bi-cart"></button>
+
+                <button data-bs-toggle="offcanvas" data-bs-target="#Login" type="button"
+                    class="btn btn-light bi bi-lock">Login</button>
+            </div>
+        </div>
+
+
+    </nav>
+
+
+    <!-- carousel start -->
+    <div id="carouselExampleCaptions" class="carousel slide mt-5" data-bs-ride="carousel" data-bs-interval="2000">
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-sm-6 text-end">
+                        <img class="img-fluid"
+                            src="https://rukminim2.flixcart.com/image/416/416/ksyz8280/computer/8/v/i/cb-11igl05-thin-and-light-laptop-lenovo-original-imag6fh8sqpuk3ts.jpeg?q=70"
+                            alt="">
+                    </div>
+                    <div class="col-sm-6">
+                        <h1>Dell v15</h1>
+                        <p>Intel i5 12GEN (12 GB RAM 1TB Hard Disk 4GB Graphic Card)</p>
+                        <button class="btn btn-primary btn-sm">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-sm-6 text-end">
+                        <img class="img-fluid"
+                            src="https://rukminim2.flixcart.com/image/416/416/ksyz8280/computer/8/v/i/cb-11igl05-thin-and-light-laptop-lenovo-original-imag6fh8sqpuk3ts.jpeg?q=70"
+                            alt="">
+                    </div>
+                    <div class="col-sm-6">
+                        <h1>HP v10</h1>
+                        <p>Intel i3 12GEN (8 GB RAM 1TB Hard Disk 4GB Graphic Card)</p>
+                        <button class="btn btn-primary btn-sm">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- carousel end -->
+
+
+    <!-- feature start -->
+
+    <div class="bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="d-flex py-3 align-items-center text-light gap-4">
+                        <i class="bi bi-credit-card fs-1"></i>
+                        <div>
+                            <h3>Gaming Laptop</h3>
+                            <p>Powerful Performance for Gaming.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="d-flex py-3 align-items-center text-light gap-4">
+                        <i class="bi bi-credit-card fs-1"></i>
+                        <div>
+                            <h3>Student Use Laptop</h3>
+                            <p>College Student Most Like This Laptop.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="d-flex py-3 align-items-center text-light gap-4">
+                        <i class="bi bi-credit-card fs-1"></i>
+                        <div>
+                            <h3>Business Work</h3>
+                            <p>Regarding To Best Work Performance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- feature end -->
+
+    <!-- card start -->
+    <div class="container d-flex justify-content-between mt-5 align-content-center">
+        <h1>Featured Product</h1>
+        <button type="button" class="btn btn-primary btn-sm">View All</button>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <img class="img-fluid"
+                                    src="https://rukminim2.flixcart.com/image/416/416/kzogn0w0/computer/j/u/m/14a-ca0504tu-thin-and-light-laptop-hp-original-imagbmt6dsjhwwhz.jpeg?q=70"
+                                    alt="">
+                            </div>
+                            <div class="col-sm-4">
+                                <div>
+                                    <img class="img-fluid"
+                                        src="https://rukminim2.flixcart.com/image/416/416/kzogn0w0/computer/j/u/m/14a-ca0504tu-thin-and-light-laptop-hp-original-imagbmt6dsjhwwhz.jpeg?q=70"
+                                        alt="">
+                                </div>
+                                <div class="mt-2">
+                                    <img class="img-fluid"
+                                        src="https://rukminim2.flixcart.com/image/416/416/kzogn0w0/computer/j/u/m/14a-ca0504tu-thin-and-light-laptop-hp-original-imagbmt6dsjhwwhz.jpeg?q=70"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer alert alert-primary mb-0">
+                        <div class="d-flex justify-content-between">
+                            <strong>HP 3</strong>
+                            <p>Starting From 45000</p>
+                        </div>
+                        <button class="btn btn-outline-primary w-100">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <span class="bg-success p-1 text-light rounded">Most popular</span>
+                            <i class="bi bi-heart text-danger"></i>
+                        </div>
+                        <img class="img-fluid mt-4"
+                            src="https://rukminim2.flixcart.com/image/416/416/ksyz8280/computer/8/v/i/cb-11igl05-thin-and-light-laptop-lenovo-original-imag6fh8sqpuk3ts.jpeg?q=70"
+                            alt="">
+                        <p class="text-center">Dell Inspiron 14 Laptop</p>
+                        <p class="text-center">Starting From 45000</p>
+                        <p class="text-center">
+                            <i class="bi text-warning bi-star-fill"></i>
+                            <i class="bi text-warning bi-star-fill"></i>
+                            <i class="bi text-warning bi-star-fill"></i>
+                            <i class="bi text-warning bi-star-fill"></i>
+                            <i class="bi text-warning bi-star-half"></i>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <span class="bg-success p-1 text-light rounded">Most popular</span>
+                            <i class="bi bi-heart text-danger"></i>
+                        </div>
+                        <img class="img-fluid mt-4"
+                            src="https://tse3.mm.bing.net/th?id=OIP.ooxE-iH9Wgm0azwexUZqJAHaFt&pid=Api&P=0&h=180"
+                            width="700px" alt="">
+                        <p class="text-center">Lenovo ideapad GamingLaptop</p>
+                        <p class="text-center">Starting From 50000</p>
+                        <p class="text-center">
+                            <i class="bi text-warning bi-star-fill"></i>
+                            <i class="bi text-warning bi-star-fill"></i>
+                            <i class="bi text-warning bi-star-fill"></i>
+                            <i class="bi text-warning bi-star-fill"></i>
+                            <i class="bi text-warning bi-star-half"></i>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- card end -->
+
+
+    <!-- login offcanvas start -->
+    <div class="offcanvas offcanvas-end" id="Login">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Login</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="card">
+                <div class="card-header">Login</div>
+                <div class="card-body">
+                    <div>
+                        <label for="email" class="form-label">First Email</label>
+                        <input type="text" class="form-control" id="email" placeholder="Enter Your Email" />
+                        <div class="valid-feedback">Looks good!</div>
+                        <div class="invalid-feedback">Please choose a username.</div>
+                    </div>
+                    <div class="mt-2">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Enter Your Password" />
+                        <div class="valid-feedback">Looks good!</div>
+                        <div class="invalid-feedback">Please choose a username.</div>
+                    </div>
+                    <button type="button" class="btn btn-primary w-100 mt-3">
+                        Login
+                    </button>
+                    <p class="text-center mt-3">
+                        Dont Have Account? <a href="#">Create Account</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- login offcanvas end -->
+
+
+
+    <!-- cart offcanvas start -->
+    <div class="offcanvas offcanvas-end" id="Cart">
+        <div class="offcanvas-header bg-primary">
+            <h5 class="offcanvas-title text-light" id="offcanvasExampleLabel">Cart</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body alert alert-primary mb-0">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img class="img-fluid"
+                                src="https://rukminim2.flixcart.com/image/416/416/xif0q/computer/5/6/i/-original-imaggshd5zgfe8ev.jpeg?q=70"
+                                alt="">
+                        </div>
+                        <div class="col-sm-6">
+                            <strong>Dell Xps 13 Pro</strong>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="col-sm-3">
+                            <strong>45000/-</strong>
+                        </div>
+                    </div>
+                    <p class="text-success text-center">You will save 14788 on this order</p>
+
+                    <div class="btn-group w-100" role="group">
+                        <button type="button" class="btn btn-outline-danger">
+                            <div class="bi bi-heart"></div>
+                        </button>
+                        <button type="button" class="btn btn-outline-warning">
+                            <div class="bi bi-pencil"></div>
+                        </button>
+                        <button type="button" class="btn btn-outline-danger">
+                            <div class="bi bi-trash"></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- cart offcanvas end -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

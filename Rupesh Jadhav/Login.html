@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffd1b7;
+}
+.login-form {
+  position: relative;
+  border-bottom: 3px solid #fb966f;
+  border-right: 3px solid #fb966f;
+  background: #ffd1b7;
+  height: 400px;
+  width: 700px;
+  box-shadow: 10px 10px 6px 2px rgba(251,150,111,0.6);
+  overflow: hidden;
+}
+.details {
+  position: relative;
+  background: #fee4d4;
+  height: 400px;
+
+}
+.welcome {
+  position: absolute;
+  color:#302825 ;
+  left: 40%;
+  top: 20%;
+  font-size: 30px;
+}
+.wrap:nth-child(1) {
+  position: absolute;
+  top: 35%;
+  left: 20%;
+  margin: 12px;
+}
+.wrap:nth-child(2) {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  font-size: 15px;
+  margin: 12px;
+}
+.wrap:nth-child(3) {
+  position: absolute;
+  top: 68%;
+  left: 20%;
+  font-size: 15px;
+  margin: 12px;
+}
+.input {
+  border: 1px solid #fdb493;
+  padding: 5px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  background: none;
+}
+label {
+  color: #707e8d;
+  display: block;
+}
+button {
+  background: #fdb493;
+  position: absolute;
+  width: 80px;
+  top: 70%;
+  margin-left: 280px;
+  padding: 5px;
+  font: #ffd1b7;
+  border-radius: 5px;
+  border: none;
+}
+
+@media screen and (max-width: 22em) {
+  .login-form {
+    width: 100%;
+  }
+}
+    </style>
+</head>
+<body>
+    <div class="login-form">
+        <div class="details">
+          <div class="welcome">Welcome Back</div>
+          <form action="/" method="post">
+            <div class="wrap">
+              <label>Email</label>
+              <input type="text" class="input">
+              </div>
+            <div class="wrap">
+              <label>Password</label>
+              <input type="password" class="input" data-type="password">
+              </div>
+            <div class="wrap">
+              <label><a href="">Forgot password?</a></label>
+              </div>
+              <button type="submit"> Login</button>
+          </form>
+        </div>
+
+</body>
+</html>
