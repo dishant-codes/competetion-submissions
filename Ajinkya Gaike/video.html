@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    iframe {
+        width: 100%;
+        height: 750px;
+    }
+
+    .top {
+        display: flex;
+        padding: 15px;
+
+        justify-content: space-between;
+        overflow: hidden;
+        gap: 30px;
+        font-size: 25px;
+        color: rgb(90, 90, 90);
+
+    }
+
+    .btn:hover{
+        opacity: 2.5;
+        transform: scale(01.05);
+        transition: 0.5s;
+        padding: 10px 30px 20px;
+        border: 2px solid black;
+        background-color: rgb(203, 203, 203);
+    }
+
+    .right {
+        display: flex;
+        gap: 40px;
+        padding-top: 15px;
+        text-align: right;
+        justify-content: right;
+
+    }
+
+    .logo {
+        height: 70px;
+    }
+    .logo:hover{
+        opacity: 2.5;
+        transform: scale(01.05);
+ 
+    }
+
+    @media screen and (max-width: 555px) {
+        .logo {
+            width: 100px;
+            height: 60px;
+        }
+
+        .right {
+            font-size: 15px;
+        }
+
+        iframe {
+            height: 200px;
+        }
+    }
+   
+
+  
+   
+</style>
+
+<body>
+    <div class="top">
+        <a href="mainpage.html"><img class="logo" src="logo.svg" alt="" width="140px"></a>
+
+        <div class="right">
+            <a href="imgs.html" class="btn"  style="text-decoration: none;  color: rgb(90, 90, 90);">
+                <h5><i class='bx bx-user-circle'></i> January 26, 1950 </h5>
+            </a>
+            <a href="about.html" class="btn" style="text-decoration: none;  color: rgb(90, 90, 90);">
+                <h5>About</h5>
+            </a>
+            <a href="mainpage.html"class="btn" style="text-decoration: none;  color: rgb(90, 90, 90);">
+                <h5>Home</h5>
+            </a>
+
+
+        </div>
+    </div>
+    <iframe src="Republic Day Mashup _ Naresh Parmar _ Patriotic Songs 2023.mp4" frameborder="0"></iframe>
+</body>
+
+</html>
